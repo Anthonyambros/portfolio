@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anthony Ambros | Automation Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        .company-section {
+            margin-bottom: 40px;
+        }
+
+        .company-title {
+            background: #1e293b;
+            color: white;
+            padding: 10px 15px;
+            font-weight: bold;
+            border-radius: 6px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-top: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #0f172a;
+        }
+
+        .metrics {
+            margin-top: 10px;
+            padding: 10px;
+            background: #e2e8f0;
+            border-left: 5px solid #2563eb;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+            background: #0f172a;
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Anthony Ambros</h1>
+    <p>Production Automation Engineer | Shell Scripting | Unix | Process Optimization</p>
+    <p>Transforming Manual Operations into Intelligent Automation</p>
+</header>
+
+<div class="container">
+  
+  
+    <!-- CURRENT COMPANY SECTION -->
+    <div class="company-section">
+        <div class="company-title">BAHWAN CYBERTEK – Efficient  Automation</div>
+        
+        <div class="card">
+            <h3>Market Data Download Automation</h3>
+            <p>Built a Bash script to automate market data downloads and email reporting, removing manual intervention.</p>
+            <div class="metrics">Impact: Increased operational efficiency | Reduced manual dependency</div>
+        </div>
+
+        <div class="card">
+            <h3>Numerix OneView Upgrade Automation</h3>
+            <p>Created a script to update server and DB configurations across multiple property files, including safe shutdown and restart of applications.</p>
+            <div class="metrics">Impact: Eliminated manual config updates | Reduced upgrade risks | Faster deployments</div>
+        </div>
+        
+        <div class="card">
+            <h3>Compute Node Auto-Scaling Automation</h3>
+            <p>Developed Shell automation using awk, sed, and extract_text to dynamically scale compute nodes during high-demand calculations. Script auto-creates properties folders and updates configuration files.</p>
+            <div class="metrics">Impact: Scaling reduced to under 1 minute | Prevented crashes | Improved system stability</div>
+        </div>
+
+        <div class="card">
+            <h3>End-to-End DB Refresh Automation</h3>
+            <p>Designed a one-click automation that stops the application, refreshes DB from production, runs update queries, and restarts services automatically.</p>
+            <div class="metrics">Impact: Eliminated manual ticket process | Weekly automated execution | Reduced human error</div>
+        </div>
+
+        <div class="card">
+            <h3>SQL Batch Execution Automation</h3>
+            <p>Created SQL file with required update queries and automated execution via Shell script, removing manual SQL*Plus execution and commit steps.</p>
+            <div class="metrics">Impact: Improved consistency | Reduced manual intervention | Time savings for valuation testing</div>
+        </div>
+
+        <div class="card">
+            <h3>XML File Monitoring & Transfer Automation</h3>
+            <p>Built a continuous loop-based automation (without crontab) to monitor directory, combine XML files, archive, and send to teams every 10 minutes.</p>
+            <div class="metrics">Impact: Eliminated manual validation work | Improved delivery timelines | Increased productivity</div>
+        </div>
+
+        <div class="card">
+            <h3>Interface Upgrade End-to-End Automation</h3>
+            <p>Developed a comprehensive upgrade automation framework including backups, package sync, controlled service restart, BIP installation, and structured logging for compliance.</p>
+            <div class="metrics">Impact: Zero-error deployments | Reduced downtime | Standardized execution | Full audit traceability</div>
+        </div>
+    </div>
+
+
+    <!-- TCS SECTION -->
+    <div class="company-section">
+        <div class="company-title">TCS – Automation Contributions</div>
+        
+        <div class="card">
+            <h3>Job Notification & Patch Automation</h3>
+            <p>Automated job notifications and patch validation using Shell scripting to streamline production support workflows.</p>
+            <div class="metrics">Impact: 40% reduction in manual effort | Improved communication | Enhanced operational efficiency</div>
+        </div>
+        <div class="card">
+            <h3>Job Notification & Patch Verification Automation</h3>
+            <p>Developed Shell scripts to automate job notifications and patch validation processes, eliminating repetitive manual steps and improving release efficiency.</p>
+            <div class="metrics">Impact: 40% reduction in team effort | Improved patch governance | Faster communication flow</div>
+        </div>
+
+        <div class="card">
+            <h3>Disk Space Monitoring with Power Automate</h3>
+            <p>Designed an automated disk monitoring solution that intelligently routed alerts to Production, UAT, and SIT teams for proactive resolution.</p>
+            <div class="metrics">Impact: 20% reduction in resolution time | Improved team agility | Faster incident awareness</div>
+        </div>
+
+    </div>
+
+    <!-- INFOSYS SECTION -->
+    <div class="company-section">
+        <div class="company-title">Infosys – Early Automation Work</div>
+        <div class="card">
+            <h3>SQL & Unix Optimization (Client Recognition)</h3>
+            <p>Optimized SQL queries and Unix scripts enabling automated rollback during critical batch failures.</p>
+            <div class="metrics">Impact: Prevented major incidents | Received Client Applause | Improved system reliability</div>
+        </div>
+        
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Anthony Ambros | Automation Portfolio | Production Engineering Excellence
+</footer>
+
+</body>
+</html>
